@@ -1,0 +1,13 @@
+@import '~bootstrap/scss/bootstrap';
+
+/* ここの行を追加する */
+@import "custom";
+
+/*
+*= require_self
+*= require_tree .
+*/
+
+.header{
+  background-color:#000;
+}
