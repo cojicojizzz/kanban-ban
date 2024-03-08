@@ -1,24 +1,15 @@
-# README
+# dockerでの起動手順（windows）
+1. Docker Desktop for Windowsのインストール  
+Dockerの公式サイトからDocker Desktop for Windowsをダウンロードし、インストールします。  
+インストール後、Docker Desktopを起動してログインします。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+2. コマンドプロンプトまたはPowerShellを開く  
+スタートメニューからコマンドプロンプトまたはPowerShellを開きます。
 
-Things you may want to cover:
+3. プロジェクトのディレクトリに移動  
+cdコマンドを使って、docker-compose.ymlファイルが存在するプロジェクトのディレクトリに移動します。
+例: ``` cd C:\path\to\your\project ```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4. docker-compose upコマンドの実行  
+プロジェクトディレクトリで以下のコマンドを実行します  
+``` docker-compose up -d ```
