@@ -8,7 +8,7 @@ Dockerの公式サイトからDocker Desktop for Windowsをダウンロードし
 
 3. プロジェクトのディレクトリに移動  
 cdコマンドを使って、docker-compose.ymlファイルが存在するプロジェクトのディレクトリに移動します。
-例: ``` cd C:\path\to\your\project ```
+例: ``` cd kanban-ban ```
 
 4. docker-compose upコマンドの実行  
 プロジェクトディレクトリで以下のコマンドを実行します  
