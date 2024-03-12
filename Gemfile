@@ -5,6 +5,7 @@ ruby "3.2.1"
 gem 'jquery-rails'
 
 gem 'bootstrap', '~> 5.0.2'
+gem "font-awesome-sass"
 
 gem "sassc-rails"
 
