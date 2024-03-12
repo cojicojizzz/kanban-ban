@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.2.2"
+ruby "3.2.1"
 
 gem 'jquery-rails'
 
@@ -74,5 +74,3 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-
-gem 'devise'
