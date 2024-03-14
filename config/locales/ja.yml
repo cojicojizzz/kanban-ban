@@ -1,0 +1,8 @@
+ja:
+  activerecord:
+    attributes:
+      user:
+        name: "おなまえ"
+        password: "ぱすわーど"
+        password_confirmation: "ぱすわーどかくにん"
+        email: "めあど"
